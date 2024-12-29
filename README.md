@@ -1,2 +1,2 @@
 # Euphoria
-## The Next Musical Elevation
+**The Next Musical Elevation**
