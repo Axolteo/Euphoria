@@ -1,2 +1,2 @@
 # Euphoria
-catchy catchphrase pending
+## The Next Musical Elevation
