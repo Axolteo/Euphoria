@@ -6,7 +6,7 @@
 
 
 :root {
-    --Gradient-BG: url(images/Frame\ 95.png) lightgray 50% / cover no-repeat;
+    --Gradient-BG: url(images/background.png) lightgray 50% / cover no-repeat;
     --rev-colour-scheme: linear-gradient(137deg, #5200FF -4.88%, #FF5C00 114.91%);
     --text-color: #ffffff;
     --circle-bg: rgba(255, 255, 255, 0.05); /* Soft glowing circle color */
