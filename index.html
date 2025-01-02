@@ -13,10 +13,6 @@
         <button class="homebutton">
             <img src="images/textlogo.svg" alt="Home" width="107" height="26">
         </button>
-        <!--<div class="container">
-            <button class="signup">Sign up</button>
-            <button class="login">Log in</button>
-        </div>-->
     </div>
 
     <div class="hero">
@@ -28,9 +24,21 @@
             <h1 class="title">Feel the rhythm.</h1>
             <p class="subtitle">The ultimate music experience, tailored just for you.</p> 
             <div class="ctacontainer">
-                <input class="cta" placeholder="Enter your email..."></input>
-                <br>
-                <button class="ctabutton">Join the waitlist!</button>
+                <!-- Formspree form -->
+                <form action="https://formspree.io/f/xdkkpkwz" method="POST">
+                    <input 
+                        class="cta" 
+                        type="email" 
+                        name="email" 
+                        placeholder="Enter your email..." 
+                        required>
+                    <br>
+                    <button 
+                        type="submit" 
+                        class="ctabutton">
+                        Join the waitlist!
+                    </button>
+                </form>
             </div>
         </div>
     </div>
