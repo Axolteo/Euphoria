@@ -149,7 +149,6 @@ body {
     font-family: "ABC Ginto Normal Unlicensed Trial", sans-serif;
     color: black;
     border: 1px solid white;
-    border: none;
     border-radius: 7px;
     cursor: pointer;
     background-color: #ffffff;
@@ -175,7 +174,7 @@ body {
 }
 
 .ctacontainer {
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 @keyframes fadeIn {
