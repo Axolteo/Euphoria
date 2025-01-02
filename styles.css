@@ -37,7 +37,7 @@ body {
     background: none;
     border: none;
 }
-
+/*
 .signup {
     display: flex;
     padding: 10px 15px;
@@ -78,7 +78,7 @@ body {
 .login:hover {
     padding: 10px 20px;
 }
-
+*/
 .container {
     display: flex;
     align-items: center;
@@ -115,7 +115,7 @@ body {
 .content {
     max-width: 600px;
     padding: 20px;
-    z-index: 1; /* Ensures it is above the background shape */
+    z-index: 1;
     animation: fadeIn 1.2s ease-in-out;
 }
 
@@ -141,20 +141,41 @@ body {
 }
 
 .cta {
-    padding: 15px 30px;
+    padding: 10px 15px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 300;
+    width: 300px;
+    margin-bottom: 10px;
     font-family: "ABC Ginto Normal Unlicensed Trial", sans-serif;
     color: white;
+    border: 1px solid white;
     border: none;
-    border-radius: 50px;
+    border-radius: 7px;
     cursor: pointer;
-    background: var(--rev-colour-scheme);
+    background-color: #ffffff;
     transition: all 0.3s ease;
 }
 
 .cta:hover {
     box-shadow: 0 0 5px #5200FF, 0 0 10px #FF5C00;
+    border: 1px solid #FF5C00;
+}
+
+.ctabutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 300px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "ABC Ginto Normal Unlicensed Trial", sans-serif;
+    border: 1px solid var(--rev-colour-scheme);
+    border-radius: 50px;
+    color: white;
+    background: var(--rev-colour-scheme);
+}
+
+.ctacontainer {
+    margin-top: -20px;
 }
 
 @keyframes fadeIn {
