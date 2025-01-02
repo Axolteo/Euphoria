@@ -154,7 +154,7 @@ body {
 }
 
 .cta:hover {
-    padding: 15px 40px; 
+    box-shadow: 0 0 5px #5200FF, 0 0 10px #FF5C00;
 }
 
 @keyframes fadeIn {
